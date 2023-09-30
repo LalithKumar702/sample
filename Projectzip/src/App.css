@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.navSection{
+    border: 8px solid black;
+    display:flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    height: 50px;
+    padding-right: 20px;
+  
+
+}
+.proSection{
+    display: flex;
+    /* background-color: white; */
+    
+}
+.imgBox{
+    width:110%;
+    padding-left: 50px;
+   
+}
+.proImage{
+    width:85%;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    margin-left: 40px;
+    /* margin-right: 30px; */
+    
+
+}
+.imgBox img{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    
+}
+.submenu ul li{
+    list-style: none;
+    margin: 20px;
+
+}
+.submenu ul{
+    display: inline-flex;
+
+}
+.submenu{
+    background-color:rgb(68, 98, 148);
+    color: rgb(216, 222, 222);
+    height: 50px;
+}
+.pageSection{
+    display: grind;
+    grid-template-columns: repeat(4,300px);
+    gap:10px;
+    margin-left: 10px;
+
+}
+.pageImg{
+    width: 250px;
+    height: 250px;
+    column-gap: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+.pageImg img{
+    width:50%;
+    height:100%;
+    margin-left:100px;
+    column-gap: 10px;
+    
+}
+.ind-image{
+    width: 400px;
+    height:400px;
+}
+.ind-image img{
+    width: 100%;
+}
+.ind-details{
+    padding-bottom: 40px;
+}
+.ind-page button{
+    background-color: rgb(204, 204, 205);
+    padding: 10px;
+    border-radius: 5;
+    margin-left: 10px;
+}
+.Login {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
